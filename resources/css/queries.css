@@ -1,0 +1,325 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box,
+    row {
+        padding: 0 2%;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-line {
+        font-weight: 330;
+        font-size: 110%;
+        line-height: 145%;
+        width: 85%;
+        text-align: center;
+        margin-right: 7.5%;
+        margin-bottom: 30px;
+        color: black;
+    }
+
+    .section-phone {
+        padding-top: 70px;
+    }
+
+    .phone {
+        margin-left: 40px;
+    }
+
+    .phone-content:first-child {
+        margin-top: 50px;
+        padding-right: 0px;
+    }
+
+    .step {
+        padding-bottom: 10px;
+    }
+
+    .step p {
+        margin-bottom: 20px;
+
+    }
+
+    .btn-app img {
+        margin-top: 10px;
+    }
+
+    .btn-app img:first-child {}
+
+    .google {
+        margin-right: 4%;
+    }
+
+    .section-city {
+        max-width: 100%;
+    }
+
+    .city-box p {
+        font-size: 80%;
+    }
+
+    .small-icon {
+        margin: 0px;
+
+    }
+
+    .plan-price {
+        font-size: 200%;
+
+    }
+
+    .plan-box {
+        width: 100%;
+
+    }
+
+    .plan-box div {
+        font-size: 90%;
+    }
+
+    .btn:visited,
+    .btn:link,
+    input[type=submit] {
+        margin-top: 5px;
+        padding: 4px 35px;
+        padding-bottom: 10px;
+        margin-right: 5px;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .mobile-nav-icon {
+        display: inline-block;
+        margin: 40px 20px 0 0;
+
+    }
+
+    .sticky-nav .mobile-nav-icon .burger-icon {
+        background: url("img/burguer.svg");
+        background-size: cover;
+        font-size: 250%;
+        color: #fff;
+        height: 50px;
+        width: 50px;
+        margin: -30px 20px 0 0;
+        vertical-align: middle;
+    }
+
+    .sticky-nav .mobile-nav-icon-close {
+        background: url("img/close.svg");
+        background-size: cover;
+        font-size: 250%;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        margin: -30px 20px 0 0;
+        vertical-align: middle;
+    }
+
+    .main-nav {
+        float: right;
+        display: none;
+        margin-top: 40px;
+        font-size: 110%;
+
+    }
+
+    .main-nav a:after {
+        border: 0;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 10px 40px 0 0;
+
+    }
+
+    .sticky-nav .main-nav li {
+        margin: 10px 40px 0 0;
+    }
+
+    .sticky-nav .main-nav li a:after {
+        border: 0;
+
+    }
+
+    body {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .hero-text-box,
+    row {
+        padding: 0 0;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+
+    }
+
+
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .step {
+        margin: 10px;
+        padding-bottom: 5px;
+
+    }
+
+    .step p {
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    .step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .phone-container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* optional */
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+
+
+    .phone-content:last-child {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        text-align: center;
+        margin: 0;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+
+    .phone {
+        width: 40%;
+        overflow: hidden;
+    }
+
+    .phone-content:first-child {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .city-box {
+        margin: 0;
+    }
+
+    .city-box h3 {
+        margin: 15px auto;
+        margin-right: 50px;
+    }
+
+    .city-box p {
+        font-size: 100%;
+
+    }
+
+    .city-box ion-icon {
+        margin-right: 40px;
+    }
+
+    .plan-box {
+        width: 90%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .plan-box h3 {
+        margin-bottom: 10px;
+    }
+
+
+
+    /* Small phones: from 0 to 480px */
+    @media only screen and (max-width: 480px) {
+        section {
+            padding: 25px 0;
+        }
+
+        .step p {
+            margin: 0px;
+            margin-bottom: 5px;
+            font-size: 130%;
+            padding-right: 20px;
+            height: auto;
+            width: 100%;
+            display: block;
+        }
+    }
