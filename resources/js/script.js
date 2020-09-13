@@ -92,6 +92,13 @@ $(document).ready(function () {
         offset: '50%'
     });
 
+
+    $(".js--wp-4").hover(function(){
+        $( this ).addClass( "plan-box-hover" );
+        }, function(){
+        $( this ).removeClass( "plan-box-hover" );
+      });
+
     $('.js--nav-icon').click(function (direction) {
         //        $('.js--main-nav').slideToggle(300);
         var nav = $('.js--main-nav');
