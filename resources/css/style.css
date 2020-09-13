@@ -1,6 +1,6 @@
 /* ---------------------------*/
 /*  ---- Basic setup -------- */
-/* -------orange #df7b29------------*/
+/* ---------------------------*/
 
 * {
     margin: 0;
@@ -9,8 +9,8 @@
 }
 
 :root {
-    --first-orange: #bf6d24;
-    --second-orange: #aa5b1a;
+    --first-orange: #e67e22;
+    --second-orange: #cf6d17;
     --top-sticky-nav: #ffffff;
     --top-sticky-nav-text: #000000;
     --top-sticky-nav-text-hover: #62203c;
@@ -22,17 +22,19 @@ html,
 body {
     overflow-x: hidden;
     background-color: white;
-    font-family: sans-serif, Yekan;
+    font-family:  IRANYekan , sans-serif;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
-html {
-/*    scroll-behavior: smooth;*/
-}
+  /* ---------------------------*/
+/*  ---- FONTS -------- */
+/* ---------------------------*/
+@font-face {font-family: "IRANYekan"; src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot"); src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff") format("woff"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.svg#IRANYekan") format("svg"); }
 
+@font-face {font-family: "Vazir"; src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot"); src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff") format("woff"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.svg#Vazir") format("svg"); }
 /* ---------------------------*/
 /*  ---- reusable  -------- */
 /* ---------------------------*/
@@ -395,25 +397,7 @@ header {
     visibility: hidden;
 }
 
-@font-face {
-    font-family: 'Yekan';
-    src: url('./Yekan.eot');
-    /* IE9 Compat Modes */
-    src: url('./Yekan.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('./Yekan.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('./Yekan.woff') format('woff'),
-        /* Modern Browsers */
-        url('./Yekan.otf') format('opentype'),
-        /* Open Type Font */
-        url('./Yekan.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('./Yekan.svg#Yekan') format('svg');
-    /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /* ---------------------------*/
 /*  ---- meals  -------- */
