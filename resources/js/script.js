@@ -11,6 +11,17 @@ $(document).ready(function () {
         offset: '200px;'
     });
 
+    $('.js--section-sticky-nav').waypoint(function (direction) {
+        if (direction == "down") {
+            $('.float').addClass('show');
+        } else {
+            $('.float').removeClass('show');
+        }
+    }, {
+        offset: '200px;'
+    });
+
+
     /* Scroll on buttons */
     $('.js--scroll-to-plans').click(function () {
         $('html, body').animate({
