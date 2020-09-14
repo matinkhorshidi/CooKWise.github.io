@@ -32,6 +32,7 @@ $(document).ready(function () {
             .not('[href="#"]')
             .not('[href="#0"]')
             .click(function (event) {
+                event.preventDefault();
                 // On-page links
                 if (
                     location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
