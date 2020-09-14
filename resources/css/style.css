@@ -14,7 +14,7 @@
     --top-sticky-nav: #ffffff;
     --top-sticky-nav-text: #000000;
     --top-sticky-nav-text-hover: #62203c;
-    --def-Text-color :  #505050; 
+    --def-Text-color: #505050;
 }
 
 
@@ -23,19 +23,27 @@ html,
 body {
     overflow-x: hidden;
     background-color: white;
-    font-family:  IRANYekan , sans-serif;
+    font-family: IRANYekan, sans-serif;
     color: var(--def-Text-color);
     font-size: 18px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
-  /* ---------------------------*/
+/* ---------------------------*/
 /*  ---- FONTS -------- */
 /* ---------------------------*/
-@font-face {font-family: "IRANYekan"; src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot"); src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff") format("woff"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.svg#IRANYekan") format("svg"); }
+@font-face {
+    font-family: "IRANYekan";
+    src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot");
+    src: url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.woff") format("woff"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/235b71a9b409e684e865eb4a996e925e.svg#IRANYekan") format("svg");
+}
 
-@font-face {font-family: "Vazir"; src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot"); src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff") format("woff"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.svg#Vazir") format("svg"); }
+@font-face {
+    font-family: "Vazir";
+    src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot");
+    src: url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.woff") format("woff"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e2b31b59d40719dfa19d27a19e829da8.svg#Vazir") format("svg");
+}
 
 
 
@@ -118,7 +126,7 @@ h3 {
     text-align: center;
     margin-right: 15%;
     margin-bottom: 30px;
-    color:  var(--def-Text-color);
+    color: var(--def-Text-color);
 }
 
 
@@ -243,6 +251,7 @@ header {
     width: auto;
     float: left;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .main-nav {
@@ -263,8 +272,7 @@ header {
     color: #fff;
     display: inline-block;
     margin: 0;
-    background: #ff0000;
-
+    cursor: pointer;
 }
 
 .main-nav a:link,
@@ -380,10 +388,12 @@ header {
     width: auto;
     float: left;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .sticky-nav .logo {
     display: none;
+    cursor: pointer;
 }
 
 .sticky-nav .logo-black {
@@ -409,8 +419,9 @@ header {
 .section-features .long-copy {
     margin-bottom: 30px;
 }
+
 .section-features .long-copy {
-   color : #505050;
+    color: #505050;
 }
 
 
@@ -653,10 +664,11 @@ cite img {
     transition: transform 0.5s, box-shadow 0.5s;
 }
 
-.plan-box-hover{
+.plan-box-hover {
     transform: scale(2);
     box-shadow: 2px 11px 12px -5px rgba(163, 163, 163, 0.37);
 }
+
 .plan-box:hover {
     transform: scale(1.01);
     box-shadow: 2px 11px 12px -5px rgba(163, 163, 163, 0.37);
